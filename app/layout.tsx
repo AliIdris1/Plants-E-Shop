@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Subscribe";
+import Scrolltotop from "./components/Scrolltotop";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +25,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Subscribe />
+        <Scrolltotop />
         <Footer />
         </body>
     </html>
